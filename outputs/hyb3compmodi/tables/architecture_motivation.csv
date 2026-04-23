@@ -1,0 +1,10 @@
+Property,V1 (GRU),V2 (PatchTrans),V3 — WINNER ✓,V4 (MultiScale)
+Spatial encoding A,ConvLSTM 3×3,ConvLSTM 3×3,ConvLSTM 3×3,ConvLSTM 3×3+5×5
+Spatial encoding B,STGAT (GAT×2),PatchTransformer,STGAT (GAT×2),STGAT (GAT×2)
+Spatial receptive field,Local 3×3 + 1-hop,Local + Global,Local 3×3 + 1-hop,Local multi-scale+1-hop
+Neighbour weighting,Fixed+Attention,Fixed+Global Att,Fixed+Attention,Fixed×2+Attention
+Temporal encoder,GRU (sequential),GRU (sequential),Self-Attention (direct),GRU (sequential)
+Temporal direct access,✗ No (sequential),✗ No,✓ Yes (any day→any day),✗ No
+POI/KDE node features,✓ Yes,✗ Not in patches,✓ Yes,✓ Yes
+Self-training (Phase 2),✓ Yes,✓ Yes,✓ Yes,✓ Yes
+Redundant representations,Low,Medium,Low,High (two conv scales)

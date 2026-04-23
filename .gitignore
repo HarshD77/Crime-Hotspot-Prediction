@@ -1,5 +1,7 @@
 data/
-outputs/
+outputs/*
+!outputs/hyb3compmodi/
+!outputs/hyb3compmodi/**
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
