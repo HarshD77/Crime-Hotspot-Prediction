@@ -342,16 +342,4 @@ Contributions are welcome! Here are some ways to contribute:
 
 ---
 
-## 📄 License
 
-This project is open source. Please check the repository for license details.
-
----
-
-<div align="center">
-
-**⭐ If you find this project useful, please consider giving it a star! ⭐**
-
-Made with ❤️ by [HarshD77](https://github.com/HarshD77)
-
-</div>
